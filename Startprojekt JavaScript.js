@@ -1,12 +1,3 @@
-const http = require('http'),
-    port = 8080;
-
-http.createServer((request, response) => {
-    response.writeHead(200, { 'Content-Type': 'text/plain' });
-    response.end('Hello World\n');
-}).listen(port);
-
-console.log(`Server running at http://localhost:${port}/`);
 function Addition(a , b){
     return a + b;
 }
