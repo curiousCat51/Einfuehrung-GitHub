@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Java: Run Java",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "Java",
+      "projectName": "",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Hello World",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Hello-World-Projekt.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
