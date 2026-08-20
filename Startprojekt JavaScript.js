@@ -43,3 +43,4 @@ function Operation(a , b , op){
     }
 }
 main();
+main2();
