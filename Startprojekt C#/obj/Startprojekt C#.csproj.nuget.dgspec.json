@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj": {}
+    "C:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj": {
+    "C:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj",
+        "projectUniqueName": "C:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj",
         "projectName": "Startprojekt C#",
-        "projectPath": "c:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj",
+        "projectPath": "C:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\Startprojekt C#.csproj",
         "packagesPath": "C:\\Users\\jfleer\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\obj\\",
+        "outputPath": "C:\\Users\\jfleer\\Documents\\GitHub\\Einfuehrung-GitHub\\Startprojekt C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jfleer\\AppData\\Roaming\\NuGet\\NuGet.Config",
