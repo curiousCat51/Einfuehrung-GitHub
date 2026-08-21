@@ -1,3 +1,4 @@
+// Function zur Addition, Subtraktion, Multiplikation und Division von zwei Zahlen
 function Addition(a , b){
     return a + b;
 }
@@ -17,6 +18,7 @@ function Division(a , b){
     }
     return a / b;
 }
+// Main-Funktion fragt den Nutzer nach 2 Zahlen und der gewünschten Operation und gibt am Ende das Ergebnis aus.
 function main(){
     let num1 = parseFloat(prompt("Enter the first number:"));
     let num2 = parseFloat(prompt("Enter the second number:"));
@@ -24,6 +26,7 @@ function main(){
 
     Operation(num1, num2, operation);
 }
+// Erhält eine Operation aus der Main-Funktion und ruft die entsprechende Rechenfunktion auf.
 function Operation(a , b , op){
     switch(op) {
         case "+":
@@ -42,5 +45,7 @@ function Operation(a , b , op){
             console.log("Invalid operation.");
     }
 }
+// Ruft die Main-Funktion auf, um das Programm zu starten.
 main();
+// Ruft die Funktion main2() auf, welche sich auf die Datei Startprojekt TypeScript.ts bezieht.
 main2();
