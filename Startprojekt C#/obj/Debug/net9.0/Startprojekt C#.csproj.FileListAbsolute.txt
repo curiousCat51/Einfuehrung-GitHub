@@ -1,0 +1,15 @@
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\bin\Debug\net9.0\Startprojekt C#.exe
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\bin\Debug\net9.0\Startprojekt C#.deps.json
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\bin\Debug\net9.0\Startprojekt C#.runtimeconfig.json
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\bin\Debug\net9.0\Startprojekt C#.dll
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\bin\Debug\net9.0\Startprojekt C#.pdb
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.AssemblyInfoInputs.cache
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.AssemblyInfo.cs
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.csproj.CoreCompileInputs.cache
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.sourcelink.json
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.dll
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\refint\Startprojekt C#.dll
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.pdb
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\Startprojekt C#.genruntimeconfig.cache
+c:\Users\jfleer\Documents\GitHub\Einfuehrung-GitHub\Startprojekt C#\obj\Debug\net9.0\ref\Startprojekt C#.dll
