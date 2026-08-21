@@ -20,11 +20,44 @@ function Division(a , b){
 }
 // Main-Funktion fragt den Nutzer nach 2 Zahlen und der gewünschten Operation und gibt am Ende das Ergebnis aus.
 function main(){
-    let num1 = parseFloat(prompt("Enter the first number:"));
-    let num2 = parseFloat(prompt("Enter the second number:"));
-    let operation = prompt("Enter the operation (+, -, *, /):");
+    // If arguments are provided, use them: `node Startprojekt JavaScript.js 3 4 +`
+    const args = process.argv.slice(2);
+    if (args.length >= 3) {
+        const num1 = Number(args[0]);
+        const num2 = Number(args[1]);
+        const operation = args[2];
 
-    Operation(num1, num2, operation);
+        if (isNaN(num1) || isNaN(num2)) {
+            console.log("Invalid number input.");
+            return;
+        }
+
+        Operation(num1, num2, operation);
+        return;
+    }
+
+    // Otherwise fall back to interactive prompts using Node readline
+    const readline = require('readline');
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+
+    rl.question('Enter the first number: ', (first) => {
+        rl.question('Enter the second number: ', (second) => {
+            rl.question('Enter the operation (+, -, *, /): ', (operation) => {
+                const num1 = Number(first);
+                const num2 = Number(second);
+                if (isNaN(num1) || isNaN(num2)) {
+                    console.log('Invalid number input.');
+                    rl.close();
+                    return;
+                }
+                Operation(num1, num2, operation);
+                rl.close();
+            });
+        });
+    });
 }
 // Erhält eine Operation aus der Main-Funktion und ruft die entsprechende Rechenfunktion auf.
 function Operation(a , b , op){
@@ -47,5 +80,3 @@ function Operation(a , b , op){
 }
 // Ruft die Main-Funktion auf, um das Programm zu starten.
 main();
-// Ruft die Funktion main2() auf, welche sich auf die Datei Startprojekt TypeScript.ts bezieht.
-main2();

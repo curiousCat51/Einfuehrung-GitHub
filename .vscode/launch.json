@@ -11,6 +11,27 @@
       "type": "node"
     },
     {
+      "name": "Launch Startprojekt JavaScript",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/Startprojekt JavaScript.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Launch Startprojekt TypeScript (ts-node)",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "tsc: build Startprojekt TypeScript",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["ts-node"],
+      "args": ["${workspaceFolder}/Startprojekt TypeScript.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
       "name": "Java: Run Java",
       "type": "java",
       "request": "launch",
