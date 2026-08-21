@@ -43,6 +43,6 @@ Bei ausführung wird "Hello World!" und eine kurze Beschreibung des Programms au
 # Ziele
 Das Gesamtprojekt Einfuehrung-GitHub verfolgte den Plan, ein Grundverständnis für GitHub zu entwicklen.
 Unteranderem sollten folgende Ziele erfüllt werden:
-- [ ] Entwicklungsumgebung Installieren und testen
-- [ ] Mit Git arbeiten: Commit, Verlauf, README, Projektstruktur
-- [ ] Probleme Dokumentieren und anschließend beheben
+- [x] Entwicklungsumgebung Installieren und testen
+- [x] Mit Git arbeiten: Commit, Verlauf, README, Projektstruktur
+- [x] Probleme Dokumentieren und anschließend beheben
